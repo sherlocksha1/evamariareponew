@@ -40,10 +40,10 @@ async def start(client, message):
             InlineKeyboardButton('🤙 𝐈𝐧𝐯𝐢𝐭𝐞 𝐲𝐨𝐮𝐫 𝐟𝐫𝐢𝐞𝐧𝐝𝐬 🤙', url=f'https://t.me/share/url?url=https://t.me/movie_ott')
             ],[
             InlineKeyboardButton('🔍 𝐒𝐞𝐚𝐫𝐜𝐡 𝐦𝐨𝐯𝐢𝐞𝐬', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🍿 𝐦𝐨𝐯𝐢𝐞𝐬', url='https://t.me/movie_ott')
+            InlineKeyboardButton('🍿 movies', url='https://t.me/movie_ott')
             ],[
-            InlineKeyboardButton('ℹ️ 𝐇𝐞𝐥𝐩', callback_data='help'),
-            InlineKeyboardButton('😊 𝐀𝐛𝐨𝐮𝐭', callback_data='about')
+            InlineKeyboardButton('ℹ️ help', callback_data='help'),
+            InlineKeyboardButton('😊 about', callback_data='about')
             ],[
             InlineKeyboardButton('🌟 𝐑𝐚𝐭𝐞 𝐦𝐞', url=f"https://t.me/songs_movies/498"),
         ]]
